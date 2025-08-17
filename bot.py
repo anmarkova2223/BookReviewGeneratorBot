@@ -15,6 +15,9 @@ from pymongo import MongoClient
 from bson import ObjectId
 import openai
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Configure logging
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
